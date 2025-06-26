@@ -1,47 +1,51 @@
-
-
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-}
-/* 
-.hover{
-    transition: background-color 0.3s ease;
-} */
-
-h1 {
-    color: #333;
+    background: linear-gradient(to bottom right, #000000, #001f3f); /* Black-Blue */
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .todo-container {
     background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    width: 300px;
-    margin: 0 auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 350px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    text-align: center;
 }
 
 #todoInput {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #cfc7c7;
     border-radius: 5px;
     margin-bottom: 10px;
 }
 
 button {
-    padding: 5px 10px;
+    padding: 8px 12px;
     background-color: #3498db;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 5px;
+    margin: 5px 2px;
 }
 
 button:hover {
@@ -51,17 +55,18 @@ button:hover {
 ul {
     list-style: none;
     padding: 0;
+    margin-top: 15px;
 }
 
 li {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin: 5px 0;
 }
 
 .completed {
@@ -69,28 +74,25 @@ li {
 }
 
 footer {
-    margin-top: 40px;
-    padding: 20px;
-    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
     background-color: #205f81;
     color: white;
-    border-top: 1px solid #ddd;
+    border-radius: 8px;
     font-size: 14px;
-    border-radius: 0 0 8px 8px;
 }
 
 footer a {
-    color: #fff;
+    color: #aad4ff;
     text-decoration: underline;
 }
 
 footer a:hover {
-    text-decoration: none;
-    color: #e0e0e0;
+    color: #ffffff;
 }
 
 footer .quote {
     font-style: italic;
-    margin-top: 10px;
+    margin-top: 8px;
     font-size: 13px;
 }
