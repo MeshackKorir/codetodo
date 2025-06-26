@@ -1,9 +1,15 @@
 
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
 }
+/* 
+.hover{
+    transition: background-color 0.3s ease;
+} */
 
 h1 {
     color: #333;
@@ -60,4 +66,31 @@ li {
 
 .completed {
     background-color: #d3ffd3;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: #205f81;
+    color: white;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    border-radius: 0 0 8px 8px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+footer .quote {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 13px;
 }

@@ -1,5 +1,3 @@
-
-// Define an array to store Todos
 let todos = [];
 
 // Function to add a new Todo
@@ -46,6 +44,8 @@ function deleteTodo(index) {
 
 // Event listener for adding a new Todo
 document.getElementById('addTodo').addEventListener('click', addTodo);
+
+
 
 // Initial display of Todos
 displayTodos();
